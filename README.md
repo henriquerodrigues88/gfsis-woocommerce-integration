@@ -1,7 +1,8 @@
 # GFSIS Woocommerce Integration<br>
 <p>Integração do WooCommerce com o sistema GFSIS para registro de pedidos</p>
-<p>API Reference: https://gfsis.readme.io/reference/getting-started-with-your-api</p>
-<p>Este plugin pode ser usado com os plugins Checkout Field Editor e Brazilian Market on WooCommerce.</p>
+<p>Referência da API: https://gfsis.readme.io/reference/getting-started-with-your-api</p>
+<p>Este plugin pode ser usado com os plugins <a href="https://br.wordpress.org/plugins/woo-checkout-field-editor-pro/" target="_blank">Checkout Field Editor</a> e <a href="https://br.wordpress.org/plugins/woocommerce-extra-checkout-fields-for-brazil/" target="_blank">Brazilian Market on WooCommerce</a>.</p>
+<p>Há alguns meses atrás, desenvolvi um site utilizando WordPress e Woocommerce para a venda de certificados digitais para uma grande empresa do ramo. Me deparei com um problema de integração do Woocommerce para um sistema externo, o GFSIS. Este plugin personalizado foi desenvolvido para resolve-lo.</p>
 <h2>No plugin Checkout Field Editor</h2>
 <ul>
 <li>Crie um campo de nome billing_id do tipo hidden e deixe o default value vazio</li>
@@ -26,7 +27,7 @@
 <li>O objetivo é criar um arquivo debug.log na pasta /wp-content para conferir se os campos estao sendo enviados</li>
 <li>Abra o arquivo wp-config.php</li>
 <li>Altere 'WP_DEBUG' para true</li>
-<li>Logo abaixo, cole o seguinte conteudo e salve o arquivo:<br>define( 'WP_DEBUG_LOG', true );<br>
+<li>Logo abaixo, copie cole o seguinte conteudo e salve o arquivo:<br>define( 'WP_DEBUG_LOG', true );<br>
 define( 'WP_DEBUG_DISPLAY', false );<br>
 @ini_set( 'log_errors', 1 );<br>
 @ini_set( 'display_errors', 0 );
@@ -68,7 +69,7 @@ define( 'WP_DEBUG_DISPLAY', false );<br>
 </ul>
 <h2>Requerimentos</h2>
 <ul>
-<li>Versão mínima do PHP: 7.4</li>
+<li>Versão mínima do PHP: 7.4 Utilize a partir de 8.0 se nenhum dos plugins que você utiliza for considerado obsoleto</li>
 <li>WordPress a partir da versão 6.2</li>
 <li>Woocommerce a partir da versão 9.0</li>
 </ul>
