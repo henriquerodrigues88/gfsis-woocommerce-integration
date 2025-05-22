@@ -42,7 +42,7 @@ define( 'WP_DEBUG_DISPLAY', false );<br>
 </ul>
 <h2>Instalando o plugin</h2>
 <ul>
-<li>No painel de administração do WordPress, navegue até plugins e clique em enviar</li>
+<li>Navegue até plugins, adicionar plugin, enviar plugin</li>
 <li>Caso você já tenha baixado, selecione o arquivo gfsis-woocommerce-integration-main.zip</li>
 <li>Instale e ative o plugin</li>
 </ul>
@@ -57,7 +57,7 @@ define( 'WP_DEBUG_DISPLAY', false );<br>
 <h2>Extra</h2>
 <ul>
 <li>Comunicação com a API do Instituto Brasileiro de Geografia e Estatística - IBGE</li>
-<li>Quando uma UF é selecionada no campo estado, o campo codigoibge é populado com as opções para a escolha do cliente</li>
+<li>Quando uma UF é selecionada no campo estado, o campo codigoibge é populado com as opções para a escolha/pesquisa do cliente</li>
 </ul>
 <h2>Funcionalidades</h2>
 <ul>
