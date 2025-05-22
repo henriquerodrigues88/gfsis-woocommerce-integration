@@ -32,10 +32,15 @@ define( 'WP_DEBUG_DISPLAY', false );<br>
 @ini_set( 'log_errors', 1 );<br>
 @ini_set( 'display_errors', 0 );
 </li>
+</ul>
+<h2>Instalação</h2>
+<ul>
 <li>No painel de administração do WordPress, navegue até plugins e clique em enviar</li>
 <li>Caso você já tenha baixado, selecione o arquivo gfsis-woocommerce-integration.zip</li>
 <li>Instale e ative o plugin</li>
+</ul>
 <h2>No Woocommerce</h2>
+<ul>
 <li>Navege até Produtos</li>
 <li>Certifique-se de que todos os seus produtos contenham no campo SKU o ID referente ao produto que está cadastrado no GFSIS</li>
 <li>Opcional: Insira categorias e atrele aos produtos. Por exemplo: Equipamento, Certificado PF, Certificado PJ, etc</li>
@@ -48,7 +53,7 @@ define( 'WP_DEBUG_DISPLAY', false );<br>
 <li>Nas linhas 202 e 203, insira seu nome de usuário e senha, providos pelo GFSIS</li>
 <li>Na linha 251, em "yourdomain.gfsis.com.br", substitua "yourdomain" pelo seu domínio</li>
 </ul>
-<h2>Extras</h2>
+<h2>Extra</h2>
 <ul>
 <li>Comunicação com a API do IBGE</li>
 <li>Quando um estado é selecionado, o campo codigoibge é populado com as opções para a escolha do cliente</li>
@@ -64,7 +69,7 @@ define( 'WP_DEBUG_DISPLAY', false );<br>
 <li>Prepara e envia os dados dos objetos como JSON</li>
 <li>Cria o token, verifica sua expiração e renova automaticamente se necessário armazenando em um transient</li>
 <li>Captura o código retornado pela GFSIS atualizando o ID do pedido no WooCommerce para refletir o código do GFSIS</li>
-<li>Obtém o SKU do produto principal do pedido passando como ID do certificado para o GFSIS</li>
+<li>Obtém o SKU do produto principal do pedido passando como ID do produto certificado para o GFSIS</li>
 <li>Personaliza o número do pedido exibido na página de Pedido Recebido</li>
 </ul>
 <h2>Requerimentos</h2>
