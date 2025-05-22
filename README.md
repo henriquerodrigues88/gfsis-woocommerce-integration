@@ -55,6 +55,7 @@ define( 'WP_DEBUG_DISPLAY', false );<br>
 <h2>Funcionalidades</h2>
 <ul>
 <li>Salva campos personalizados no pedido</li>
+<li>Mapeia os campos do Woocommerce para corresponderem aos campos do GFSIS</li>
 <li>Limpa caracteres não numéricos</li>
 <li>Obtém os detalhes do pedido</li>
 <li>Converte data de d-m-y para Y-m-d</li>
