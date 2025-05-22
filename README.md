@@ -7,7 +7,7 @@
 <ul>
 <li>Crie um campo de nome billing_id do tipo hidden e deixe o default value vazio</li>
 <li>Crie um campo de nome codigoibge do tipo select. Não adicione opções</li>
-<li>Crie um campo de nome contactname do tipo e adicione o nome do vendedor cadastrado no GFSIS como default value</li>
+<li>Crie um campo de nome contactname do tipo hidden e adicione o nome do vendedor cadastrado no GFSIS como default value</li>
 <li>Crie um campo de nome pontoatendimento do tipo hidden e deixe o default value vazio</li>
 <li>Crie um campo de nome indicacaocpf do tipo select e adicione o respectivos cpf nas options e seus labels cadastrados no GFSIS. Você pode usar cnpj, só vai precisar fazer as devidas alterações no arquivo gfsis-woocommerce-integration.php</li>
 <li>Crie um campo de nome tipovalidacao do tipo select e adicione a option 1 para Presencial e 2 para Videoconferência. Se sua empresa utiliza apenas videconferência, por exemplo, você pode adicionar apenas a opção 2 e opcionalmente ocultar o campo com CSS</li>
