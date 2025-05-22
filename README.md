@@ -1,8 +1,8 @@
-# GFSIS Woocommerce Integration
+# GFSIS WooCommerce Integration
 <p>Integração do WooCommerce com o sistema GFSIS para registro de pedidos</p>
 <p>Referência da API: https://gfsis.readme.io/reference/getting-started-with-your-api</p>
 <p>Este plugin pode ser usado com os plugins <a href="https://br.wordpress.org/plugins/woo-checkout-field-editor-pro/">Checkout Field Editor</a> e <a href="https://br.wordpress.org/plugins/woocommerce-extra-checkout-fields-for-brazil/">Brazilian Market on WooCommerce</a>.</p>
-<p>Recentemente desenvolvi um site utilizando WordPress e Woocommerce para a venda de certificados digitais para uma grande empresa do ramo. Me deparei com um problema de integração do checkout para um sistema externo, o GFSIS. Este plugin personalizado foi desenvolvido para resolve-lo.</p>
+<p>Recentemente desenvolvi um site utilizando WordPress e WooCommerce para a venda de certificados digitais para uma grande empresa do ramo. Me deparei com um problema de integração do checkout para um sistema externo, o GFSIS. Este plugin personalizado foi desenvolvido para resolve-lo.</p>
 <h2>No plugin Checkout Field Editor</h2>
 <ul>
 <li>Crie um campo de nome billing_id do tipo hidden e deixe o default value vazio</li>
@@ -34,7 +34,7 @@ define( 'WP_DEBUG_DISPLAY', false );<br>
 @ini_set( 'display_errors', 0 );
 </li>
 </ul>
-<h2>No Woocommerce</h2>
+<h2>No WooCommerce</h2>
 <ul>
 <li>Navege até Produtos</li>
 <li>Certifique-se de que todos os seus produtos contenham no campo SKU, o ID referente ao produto certificado que está cadastrado no GFSIS</li>
@@ -46,7 +46,7 @@ define( 'WP_DEBUG_DISPLAY', false );<br>
 <li>Caso você já tenha baixado, selecione o arquivo gfsis-woocommerce-integration-main.zip</li>
 <li>Instale e ative o plugin</li>
 </ul>
-<h2>No plugin GFSIS Woocommerce Integration</h2>
+<h2>No plugin GFSIS WooCommerce Integration</h2>
 <ul>
 <li>Abra o arquivo gfsis-woocommerce-integration.php</li>
 <li>Na linha 146, substitua "123" pelo ID correto do seu ponto de atendimento cadastrado no GFSIS</li>
@@ -61,8 +61,8 @@ define( 'WP_DEBUG_DISPLAY', false );<br>
 </ul>
 <h2>Funcionalidades</h2>
 <ul>
-<li>Mapeia os nomes dos campos do Woocommerce para corresponderem aos nomes dos campos do GFSIS</li>
-<li>Salva campos personalizados no pedido do Woocommerce</li>
+<li>Mapeia os nomes dos campos do WooCommerce para corresponderem aos nomes dos campos do GFSIS</li>
+<li>Salva campos personalizados no pedido do WooCommerce</li>
 <li>Limpa caracteres não numéricos em alguns campos</li>
 <li>Converte data de d-m-y para Y-m-d</li>
 <li>Captura valores brutos para depuração e log</li>
@@ -77,5 +77,5 @@ define( 'WP_DEBUG_DISPLAY', false );<br>
 <ul>
 <li>Versão mínima do PHP: 7.4. Utilize a partir de 8.0 se nenhum dos plugins que você utiliza for obsoleto</li>
 <li>WordPress: 6.2 ou superior</li>
-<li>Woocommerce: 9.0 ou superior</li>
+<li>WooCommerce: 9.0 ou superior</li>
 </ul>
