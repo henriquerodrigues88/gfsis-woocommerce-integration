@@ -42,7 +42,7 @@ define( 'WP_DEBUG_DISPLAY', false );<br>
 <h2>No Woocommerce</h2>
 <ul>
 <li>Navege até Produtos</li>
-<li>Certifique-se de que todos os seus produtos contenham no campo SKU o ID referente ao produto que está cadastrado no GFSIS</li>
+<li>Certifique-se de que todos os seus produtos contenham no campo SKU o ID referente ao produto certificado que está cadastrado no GFSIS</li>
 <li>Opcional: Insira categorias e atrele aos produtos. Por exemplo: Equipamento, Certificado PF, Certificado PJ, etc</li>
 </ul>
 <h2>No plugin GFSIS Woocommerce Integration</h2>
