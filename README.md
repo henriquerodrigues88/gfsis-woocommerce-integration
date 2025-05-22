@@ -24,7 +24,7 @@
 </ul>
 <h2>No WordPress</h2>
 <ul>
-<li>O objetivo é criar um arquivo debug.log na pasta /wp-content para conferir se os campos estao sendo enviados</li>
+<li>O objetivo é criar um arquivo debug.log na pasta /wp-content para conferir se os campos estao sendo enviados recebendo a resposta da API</li>
 <li>Abra o arquivo wp-config.php</li>
 <li>Altere 'WP_DEBUG' para true</li>
 <li>Logo abaixo, copie cole o seguinte conteudo e salve o arquivo:<br>define( 'WP_DEBUG_LOG', true );<br>
