@@ -52,6 +52,7 @@ define( 'WP_DEBUG_DISPLAY', false );<br>
 <li>Na linha 201, em "yourdomain.gfsis.com.br", substitua "yourdomain" pelo seu domínio</li>
 <li>Nas linhas 202 e 203, insira seu nome de usuário e senha, providos pelo GFSIS</li>
 <li>Na linha 251, em "yourdomain.gfsis.com.br", substitua "yourdomain" pelo seu domínio</li>
+<li>Salve o arquivo</li>
 </ul>
 <h2>Extra</h2>
 <ul>
