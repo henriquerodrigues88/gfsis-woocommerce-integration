@@ -33,10 +33,10 @@ define( 'WP_DEBUG_DISPLAY', false );<br>
 @ini_set( 'display_errors', 0 );
 </li>
 </ul>
-<h2>Instalação</h2>
+<h2>Instalando o plugin</h2>
 <ul>
 <li>No painel de administração do WordPress, navegue até plugins e clique em enviar</li>
-<li>Caso você já tenha baixado, selecione o arquivo gfsis-woocommerce-integration.zip</li>
+<li>Caso você já tenha baixado, selecione o arquivo gfsis-woocommerce-integration-main.zip</li>
 <li>Instale e ative o plugin</li>
 </ul>
 <h2>No Woocommerce</h2>
