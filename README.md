@@ -48,7 +48,7 @@ define( 'WP_DEBUG_DISPLAY', false );<br>
 </ul>
 <h2>Extras</h2>
 <li>Comunicação com a API do IBGE</li>
-<li>Quando um estado é selecionado, o campo codigoibge é populado com as opções para a escolha do cliente utlizando select2</li>
+<li>Quando um estado é selecionado, o campo codigoibge é populado com as opções para a escolha do cliente</li>
 <h2>Requerimentos</h2>
 <li>Versão mínima do PHP: 7.4</li>
 <li>WordPress a partir da versão 6.2</li>
