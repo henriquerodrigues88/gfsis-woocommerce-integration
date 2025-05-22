@@ -1,5 +1,6 @@
-# GFSIS Woocommerce Integration
-Integração do WooCommerce com o sistema GFSIS para registro de pedidos
+# GFSIS Woocommerce Integration<br>
+<p>Integração do WooCommerce com o sistema GFSIS para registro de pedidos</p>
+<p>API Reference: https://gfsis.readme.io/reference/getting-started-with-your-api</p>
 <p>Este plugin pode ser usado com os plugins Checkout Field Editor e Brazilian Market on WooCommerce.</p>
 <h2>No plugin Checkout Field Editor</h2>
 <ul>
@@ -47,9 +48,26 @@ define( 'WP_DEBUG_DISPLAY', false );<br>
 <li>Na linha 251, em "yourdomain.gfsis.com.br", substitua "yourdomain" pelo seu domínio</li>
 </ul>
 <h2>Extras</h2>
+<ul>
 <li>Comunicação com a API do IBGE</li>
 <li>Quando um estado é selecionado, o campo codigoibge é populado com as opções para a escolha do cliente</li>
+</ul>
+<h2>Funcionalidades</h2>
+<ul>
+<li>Salva campos personalizados no pedido</li>
+<li>Limpa caracteres não numéricos</li>
+<li>Obtém os detalhes do pedido</li>
+<li>Converte data de d-m-y para Y-m-d</li>
+<li>Captura valores brutos para depuração</li>
+<li>Prepara e envia os dados dos objetos como JSON</li>
+<li>Cria o token, verifica sua expiração e renova automaticamente se necessário armazenando em um transient</li>
+<li>Captura o código retornado pela GFSIS atualizando o ID do pedido no WooCommerce para refletir o código do GFSIS</li>
+<li>Obtém o SKU do produto principal do pedido passando como ID do certificado para o GFSIS</li>
+<li>Personaliza o número do pedido exibido na página de Pedido Recebido</li>
+</ul>
 <h2>Requerimentos</h2>
+<ul>
 <li>Versão mínima do PHP: 7.4</li>
 <li>WordPress a partir da versão 6.2</li>
 <li>Woocommerce a partir da versão 9.0</li>
+</ul>
