@@ -33,17 +33,17 @@ define( 'WP_DEBUG_DISPLAY', false );<br>
 @ini_set( 'display_errors', 0 );
 </li>
 </ul>
-<h2>Instalando o plugin</h2>
-<ul>
-<li>No painel de administração do WordPress, navegue até plugins e clique em enviar</li>
-<li>Caso você já tenha baixado, selecione o arquivo gfsis-woocommerce-integration-main.zip</li>
-<li>Instale e ative o plugin</li>
-</ul>
 <h2>No Woocommerce</h2>
 <ul>
 <li>Navege até Produtos</li>
 <li>Certifique-se de que todos os seus produtos contenham no campo SKU o ID referente ao produto certificado que está cadastrado no GFSIS</li>
 <li>Opcional: Insira categorias e atrele aos produtos. Por exemplo: Equipamento, Certificado PF, Certificado PJ, etc</li>
+</ul>
+<h2>Instalando o plugin</h2>
+<ul>
+<li>No painel de administração do WordPress, navegue até plugins e clique em enviar</li>
+<li>Caso você já tenha baixado, selecione o arquivo gfsis-woocommerce-integration-main.zip</li>
+<li>Instale e ative o plugin</li>
 </ul>
 <h2>No plugin GFSIS Woocommerce Integration</h2>
 <ul>
@@ -75,6 +75,6 @@ define( 'WP_DEBUG_DISPLAY', false );<br>
 <h2>Requerimentos</h2>
 <ul>
 <li>Versão mínima do PHP: 7.4. Utilize a partir de 8.0 se nenhum dos plugins que você utiliza for considerado obsoleto</li>
-<li>WordPress a partir da versão 6.2</li>
-<li>Woocommerce a partir da versão 9.0</li>
+<li>WordPress: 6.2 ou superior</li>
+<li>Woocommerce: 9.0 ou superior</li>
 </ul>
