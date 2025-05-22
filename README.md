@@ -1,4 +1,4 @@
-# GFSIS Woocommerce Integration<br>
+# GFSIS Woocommerce Integration
 <p>Integração do WooCommerce com o sistema GFSIS para registro de pedidos</p>
 <p>Referência da API: https://gfsis.readme.io/reference/getting-started-with-your-api</p>
 <p>Este plugin pode ser usado com os plugins <a href="https://br.wordpress.org/plugins/woo-checkout-field-editor-pro/">Checkout Field Editor</a> e <a href="https://br.wordpress.org/plugins/woocommerce-extra-checkout-fields-for-brazil/">Brazilian Market on WooCommerce</a>.</p>
