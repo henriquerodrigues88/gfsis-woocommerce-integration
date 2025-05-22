@@ -9,7 +9,7 @@
 <li>Crie um campo de nome codigoibge do tipo select. Não adicione opções</li>
 <li>Crie um campo de nome contactname do tipo hidden e adicione o nome do vendedor cadastrado no GFSIS como default value</li>
 <li>Crie um campo de nome pontoatendimento do tipo hidden e deixe o default value vazio</li>
-<li>Crie um campo de nome indicacaocpf do tipo select e adicione o respectivos cpf nas options e seus labels cadastrados no GFSIS. Você pode usar cnpj, só vai precisar fazer as devidas alterações no arquivo gfsis-woocommerce-integration.php</li>
+<li>Crie um campo de nome indicacaocpf do tipo select e adicione o respectivo cpf nas options e seus labels cadastrados no GFSIS. Você pode usar cnpj, só vai precisar fazer as devidas alterações no arquivo gfsis-woocommerce-integration.php</li>
 <li>Crie um campo de nome tipovalidacao do tipo select e adicione a option 1 para Presencial e 2 para Videoconferência. Se sua empresa utiliza apenas videconferência, por exemplo, você pode adicionar apenas a opção 2 e opcionalmente ocultar o campo com CSS</li>
 <li>Crie um campo de nome formapagamento do tipo select e adicione as options e labels de acordo com o que foi cadastrado no financeiro do GFSIS. Por exemplo: 21 - Pix, 22 - Boleto, 23 - Cartão 1x, 24 - Cartão 2x, etc.</li>
 <li>Opcional: Reordene os campos para como você quer que aparecem no checkout</li>
