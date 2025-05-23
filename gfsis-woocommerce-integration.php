@@ -2,7 +2,7 @@
 /**
  * Plugin Name: GFSIS WooCommerce Integration
  * Description: Integração do WooCommerce com o sistema GFSIS para registro de pedidos.
- * Version: 2.0.4
+ * Version: 2.0.5
  * Author: Henrique Rodrigues
  */
 
