@@ -5,10 +5,10 @@
 <p>Recentemente desenvolvi um site/e-commerce utilizando WordPress e WooCommerce para a venda de certificados digitais para uma empresa do ramo, que também emite os certificados. Me deparei com um problema de integração do checkout para um sistema externo, o GFSIS. Este plugin personalizado foi desenvolvido para resolve-lo.</p>
 <h2>No plugin Checkout Field Editor</h2>
 <ul>
-<li>Crie um campo de nome billing_id do tipo hidden e deixe o default value vazio</li>
+<li>Crie um campo de nome billing_id do tipo hidden e deixe o valor padrão vazio</li>
 <li>Crie um campo de nome codigoibge do tipo select. Não adicione opções</li>
-<li>Crie um campo de nome contactname do tipo hidden e insira o nome do vendedor cadastrado no GFSIS como default value</li>
-<li>Crie um campo de nome pontoatendimento do tipo hidden e deixe o default value vazio</li>
+<li>Crie um campo de nome contactname do tipo hidden e insira o nome do vendedor cadastrado no GFSIS como valor padrão</li>
+<li>Crie um campo de nome pontoatendimento do tipo hidden e deixe o valor padrão vazio</li>
 <li>Crie um campo de nome indicacaocpf do tipo select e adicione os respectivos cpfs nas opções e seus labels, cadastrados no GFSIS. Você pode usar cnpj, só vai precisar fazer as devidas alterações no arquivo gfsis-woocommerce-integration.php</li>
 <li>Crie um campo de nome tipovalidacao do tipo select e adicione a opção 1 para Presencial e a opção 2 para Videoconferência. Se a validação é feita apenas por videconferência, por exemplo, adicione apenas a opção 2. Opcional: você pode ocultar o campo com CSS se não quiser mostra-lo ao cliente</li>
 <li>Crie um campo de nome formapagamento do tipo select e adicione as opções e labels de acordo com o que foi cadastrado no GFSIS. Por exemplo: 21 - Pix, 22 - Boleto, 23 - Cartão 1x, 24 - Cartão 2x, etc.</li>
