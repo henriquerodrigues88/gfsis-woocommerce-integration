@@ -17,7 +17,7 @@
 </ul>
 <h2>No plugin Brazilian Market on WooCommerce</h2>
 <ul>
-<li>Navegue até WooCommerce - Campos do checkout
+<li>Navegue até WooCommerce - Campos do Checkout
 <li>Na opção "Exibir Tipo de Pessoa", selecione Pessoa Física e Pessoa Jurídica.</li>
 <li>Marque a opção "Tipo de Pessoa é obrigatório apenas no Brasil."</li>
 <li>Marque a opção "Exibir Data de Nascimento".</li>
