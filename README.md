@@ -51,7 +51,7 @@ define( 'WP_DEBUG_DISPLAY', false );<br>
 </ul>
 <h2>No plugin GFSIS WooCommerce Integration</h2>
 <ul>
-<<li>Utilize algum programa de FTP, como WinSCP, Filezilla ou o gerenciador de arquivos da sua hospedagem para acessar os arquivos.</li>
+<li>Utilize algum programa de FTP, como WinSCP, Filezilla ou o gerenciador de arquivos da sua hospedagem para acessar os arquivos.</li>
 <li>Navegue até wp-content, plugins, gfsis-woocommerce-integration.</li>
 <li>Abra o arquivo gfsis-woocommerce-integration.php.</li>
 <li>Na linha 146, substitua "123" pelo ID correto do seu ponto de atendimento cadastrado no GFSIS.</li>
