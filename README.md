@@ -2,7 +2,7 @@
 <p>Integração do WooCommerce com o sistema GFSIS para registro de pedidos</p>
 <p>Referência da API: https://gfsis.readme.io/reference/getting-started-with-your-api</p>
 <p>Este plugin pode ser usado com os plugins <a href="https://br.wordpress.org/plugins/woo-checkout-field-editor-pro/">Checkout Field Editor</a> e <a href="https://br.wordpress.org/plugins/woocommerce-extra-checkout-fields-for-brazil/">Brazilian Market on WooCommerce</a>.</p>
-<p>Recentemente desenvolvi e-commerce utilizando WordPress e WooCommerce para a venda de certificados digitais para uma empresa do ramo, que também emite os certificados. Me deparei com um problema de integração do checkout para um sistema externo, o GFSIS. Este plugin personalizado foi desenvolvido para essa finalidade.</p>
+<p>Recentemente desenvolvi um e-commerce utilizando WordPress e WooCommerce para a venda de certificados digitais para uma empresa do ramo, que também emite os certificados. Me deparei com um problema de integração do checkout para um sistema externo, o GFSIS. Este plugin personalizado foi desenvolvido para essa finalidade.</p>
 <h2>No plugin Checkout Field Editor</h2>
 <ul>
 <li>Navegue até WooCommerce - Checkout Form.</li>
