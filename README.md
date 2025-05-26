@@ -5,6 +5,7 @@
 <p>Recentemente desenvolvi e-commerce utilizando WordPress e WooCommerce para a venda de certificados digitais para uma empresa do ramo, que também emite os certificados. Me deparei com um problema de integração do checkout para um sistema externo, o GFSIS. Este plugin personalizado foi desenvolvido para essa finalidade.</p>
 <h2>No plugin Checkout Field Editor</h2>
 <ul>
+<li>Navegue até WooCommerce - Checkout Form</li>
 <li>Crie um campo de nome billing_id do tipo hidden e deixe o valor padrão vazio</li>
 <li>Crie um campo de nome codigoibge do tipo select e não adicione opções</li>
 <li>Crie um campo de nome contactname do tipo hidden e insira o nome do vendedor cadastrado no GFSIS como valor padrão</li>
@@ -16,15 +17,17 @@
 </ul>
 <h2>No plugin Brazilian Market on WooCommerce</h2>
 <ul>
+<li>Navegue até WooCommerce - Campos do checkout
 <li>Na opção "Exibir Tipo de Pessoa", selecione Pessoa Física e Pessoa Jurídica</li>
 <li>Marque a opção "Tipo de Pessoa é obrigatório apenas no Brasil"</li>
 <li>Marque a opção "Exibir Data de Nascimento"</li>
 <li>Em validação, marque as opções "Verificar se o CPF é válido" e "Verificar se o CNPJ é válido"</li>
-<li>Opcional: Você também pode marcar "Habilitar Sugestões de E-mail" e/ou "Habilitar Máscara de Campos" em Opções de jQuery</li>
+<li>Opcional: Marque "Habilitar Sugestões de E-mail" e/ou "Habilitar Máscara de Campos" em Opções de jQuery</li>
 </ul>
 <h2>No WordPress</h2>
 <ul>
 <li>O objetivo é criar um arquivo debug.log na pasta /wp-content para conferir se os campos estao sendo enviados recebendo a resposta da API</li>
+<li>Utilize algum programa de FTP, como WinSCP, Filezilla ou o gerenciador de arquivos da sua hospedagem para acessar os arquivos</li>
 <li>Abra o arquivo wp-config.php</li>
 <li>Altere 'WP_DEBUG' para true</li>
 <li>Logo abaixo, copie e cole o seguinte conteudo e salve o arquivo:<br>
