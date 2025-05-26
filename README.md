@@ -82,7 +82,7 @@ define( 'WP_DEBUG_DISPLAY', false );<br>
 </ul>
 <h2>Requerimentos</h2>
 <ul>
-<li>Versão mínima do PHP: 7.4. Utilize a partir de 8.0 se nenhum dos plugins que você utiliza for obsoleto.</li>
+<li>Versão mínima do PHP: 7.4. Utilize a partir de 8.0 se nenhum dos seus plugins for obsoleto.</li>
 <li>WordPress: 6.2 ou superior.</li>
 <li>WooCommerce: 9.0 ou superior.</li>
 </ul>
