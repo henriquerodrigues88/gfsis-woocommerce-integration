@@ -10,8 +10,8 @@
 <li>Crie um campo de nome codigoibge do tipo select e não adicione opções</li>
 <li>Crie um campo de nome contactname do tipo hidden e insira o nome do vendedor cadastrado no GFSIS como valor padrão</li>
 <li>Crie um campo de nome pontoatendimento do tipo hidden e deixe o valor padrão vazio</li>
-<li>Crie um campo de nome indicacaocpf do tipo select e adicione os respectivos cpfs nas opções e seus labels, cadastrados no GFSIS. Você pode criar um campo indicacaocnpj, só vai precisar adicione os respectivos cpfs nas opções e seus labels e fazer as devidas alterações no arquivo gfsis-woocommerce-integration.php</li>
-<li>Crie um campo de nome tipovalidacao do tipo select e adicione a opção 1 para Presencial e a opção 2 para Videoconferência. Se a validação é feita apenas por videconferência, por exemplo, adicione apenas a opção 2. Opcional: você pode ocultar o campo com CSS se não quiser mostra-lo ao cliente</li>
+<li>Crie um campo de nome indicacaocpf do tipo select e adicione os respectivos cpfs nas opções e seus labels, cadastrados no GFSIS. Você pode criar um campo indicacaocnpj, só vai precisar adicione os respectivos cnpjs nas opções e seus labels e fazer as alterações de nome no arquivo gfsis-woocommerce-integration.php</li>
+<li>Crie um campo de nome tipovalidacao do tipo select e adicione a opção 1 para Presencial e 2 para Videoconferência. Se a validação é feita apenas por videconferência, por exemplo, adicione apenas a opção 2. Opcional: você pode ocultar o campo com CSS se não quiser mostra-lo ao cliente</li>
 <li>Crie um campo de nome formapagamento do tipo select e adicione as opções e labels de acordo com o que foi cadastrado no GFSIS. Por exemplo: 21 - Pix, 22 - Boleto, 23 - Cartão 1x, 24 - Cartão 2x, etc. Neste caso você precisará usar javascript para ativar as opções do gateway de pagamento de acordo com a escolha do cliente</li>
 <li>Opcional: Reordene os campos para a ordem que você quer que aparecem no formulário do checkout</li>
 </ul>
