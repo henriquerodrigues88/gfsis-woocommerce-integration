@@ -7,7 +7,7 @@
 <ul>
 <li>Navegue até WooCommerce - Checkout Form.</li>
 <li>Crie um campo de nome billing_id do tipo hidden e deixe o valor padrão vazio.</li>
-<li>Crie um campo de nome codigoibge do tipo select e não adicione opçõe.s</li>
+<li>Crie um campo de nome codigoibge do tipo select e não adicione opções.</li>
 <li>Crie um campo de nome contactname do tipo hidden e insira o nome do vendedor cadastrado no GFSIS como valor padrão.</li>
 <li>Crie um campo de nome pontoatendimento do tipo hidden e deixe o valor padrão vazio.</li>
 <li>Crie um campo de nome indicacaocpf do tipo select e adicione os respectivos cpfs nas opções e seus labels, cadastrados no GFSIS. Você pode criar um campo indicacaocnpj, só vai precisar adicionar os respectivos cnpjs nas opções e seus labels e fazer as alterações de nome no arquivo gfsis-woocommerce-integration.php.</li>
