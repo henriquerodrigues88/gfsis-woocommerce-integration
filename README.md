@@ -70,7 +70,7 @@ define( 'WP_DEBUG_DISPLAY', false );<br>
 <ul>
 <li>Mapeia os nomes dos campos do checkout para corresponderem aos nomes dos campos do GFSIS.</li>
 <li>Salva campos personalizados no pedido do WooCommerce.</li>
-<li>Limpa caracteres não numéricos no campo CEP.</li>
+<li>Limpa caracteres não numéricos nos campos cpf, cnpj e cep.</li>
 <li>Converte data de d-m-y para Y-m-d.</li>
 <li>Captura valores brutos para depuração e cria logs.</li>
 <li>Cria o token, verifica data e hora de expiração e renova se expirado, armazenando em um transient.</li>
