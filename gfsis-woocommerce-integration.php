@@ -124,7 +124,7 @@ function send_order_to_gfsis($order_id) {
         'telefone' => $order->get_billing_phone(),
         'codigoIbge' => $raw_codigo_ibge ?: '',
         'logradouro' => $order->get_billing_address_1(),
-        'numero' => $raw_numero === 'S/N' ? 'S/N' : $raw_numero,
+        'numero' => $raw_numero,
         'complemento' => $order->get_billing_address_2() ?: '',
         'bairro' => $raw_bairro ?: '',
         'uf' => $order->get_billing_state(),
