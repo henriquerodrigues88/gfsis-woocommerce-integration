@@ -11,6 +11,7 @@
 <li>Marque a opção "Exibir Data de Nascimento".</li>
 <li>Em validação, marque as opções "Verificar se o CPF é válido" e "Verificar se o CNPJ é válido".</li>
 <li>Opcional: Marque "Habilitar Sugestões de E-mail" e/ou "Habilitar Máscara de Campos" em Opções de jQuery.</li>
+<li>Salve suas alterações.</li>
 </ul>
 <h2>No plugin Checkout Field Editor</h2>
 <ul>
@@ -21,9 +22,10 @@
 <li>Crie um campo de nome pontoatendimento do tipo hidden e deixe o valor padrão vazio.</li>
 <li>Crie um campo de nome indicacaocpf do tipo select e adicione os respectivos cpfs nas opções e seus labels, cadastrados no GFSIS. Você pode criar um campo indicacaocnpj, só vai precisar adicionar os respectivos cnpjs nas opções e seus labels e fazer as alterações de nome no arquivo gfsis-woocommerce-integration.php.</li>
 <li>Crie um campo de nome tipovalidacao do tipo select e adicione a opção 1 para Presencial e 2 para Videoconferência. Se a validação é feita apenas por videconferência, por exemplo, adicione apenas a opção 2.</li>
-<li>Opcional: você pode ocultar o campo com CSS se não quiser mostra-lo ao cliente.</li>
+<li>Opcional: Se há apenas uma opção, você pode ocultar o campo com CSS se não quiser mostra-lo ao cliente.</li>
 <li>Crie um campo de nome formapagamento do tipo select e adicione as opções e labels de acordo com o que foi cadastrado no GFSIS. Por exemplo: 21 - Pix, 22 - Boleto, 23 - Cartão 1x, 24 - Cartão 2x, etc. Neste caso você precisará criar uma função personalizada para mostrar a opção do gateway de pagamento de acordo com a escolha do cliente no select.</li>
-<li>Opcional: Reordene os campos para a ordem que você quer que aparecem no formulário de checkout.</li>
+<li>Opcional: Reordene os campos para a ordem que você quer que aparecem no formulário de checkout, basta arrasta-los para cima ou para baixo.</li>
+<li>Salve suas alterações.</li>
 </ul>
 <h2>No WordPress</h2>
 <ul>
@@ -58,8 +60,9 @@ define( 'WP_DEBUG_DISPLAY', false );<br>
 <li>Na linha 146, substitua "123" pelo ID correto do seu ponto de atendimento cadastrado no GFSIS.</li>
 <li>Na linha 201, em "yourdomain.gfsis.com.br", substitua "yourdomain" pelo seu nome de domínio.</li>
 <li>Nas linhas 202 e 203, insira seu nome de usuário e senha, providos pelo GFSIS.</li>
-<li>Na linha 251, em "yourdomain.gfsis.com.br", substitua "yourdomain" pelo seu nome de domínio e salve o arquivo.</li>
+<li>Na linha 251, em "yourdomain.gfsis.com.br", substitua "yourdomain" pelo seu nome de domínio.</li>
 <li>Opcional: Na linha 259, ajuste o tempo limite para a requisição em segundos.</li>
+<li>Salve suas alterações.</li>
 </ul>
 <h2>Extra</h2>
 <ul>
