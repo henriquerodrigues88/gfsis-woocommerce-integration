@@ -42,22 +42,22 @@ define( 'WP_DEBUG_DISPLAY', false );<br>
 </ul>
 <h2>No WooCommerce</h2>
 <ul>
-<li>Navege até Produtos.</li>
-<li>Certifique-se de que todos os seus produtos contenham no campo SKU, o ID referente ao produto do certificado que está cadastrado no GFSIS.</li>
-<li>Opcional: Insira categorias e atrele aos produtos. Por exemplo: Equipamento, Certificado PF, Certificado PJ, etc. Eu precisei fazer isso por uma questão de regra de negócio, visto que o cliente que usa cpf não pode comprar um certificado pj e vice versa. Neste caso é necessário criar uma função personalizada para fazer essa verificação através das categorias.</li>
+<li>Navege até WooCommerce - Produtos.</li>
+<li>Insira em cada um dos seus produtos, no campo SKU, o ID referente ao produto do certificado que está cadastrado no GFSIS.</li>
+<li>Opcional: Insira categorias e atrele aos produtos. Por exemplo: Equipamento, Certificado PF, Certificado PJ, etc. Obs: Eu precisei fazer isso por uma questão de regra de negócio, visto que o cliente que utiliza cpf não pode comprar um certificado pj e vice versa. Neste caso é necessário criar uma função personalizada para fazer essa verificação através das categorias.</li>
 </ul>
 <h2>Instalando o plugin</h2>
 <ul>
-<li>Navegue até plugins, adicionar plugin, enviar plugin.</li>
+<li>Navegue até Plugins - Adicionar plugin - Enviar plugin.</li>
 <li>Caso você já tenha baixado, selecione o arquivo gfsis-woocommerce-integration-main.zip.</li>
 <li>Instale e ative o plugin.</li>
 </ul>
 <h2>No plugin GFSIS WooCommerce Integration</h2>
 <ul>
 <li>Utilize algum programa de FTP, como WinSCP, Filezilla ou o gerenciador de arquivos da sua hospedagem para acessar os arquivos.</li>
-<li>Navegue até wp-content, plugins, gfsis-woocommerce-integration.</li>
+<li>Navegue até a pastas wp-content - plugins - gfsis-woocommerce-integration.</li>
 <li>Abra o arquivo gfsis-woocommerce-integration.php.</li>
-<li>Na linha 146, substitua "123" pelo ID correto do seu ponto de atendimento cadastrado no GFSIS.</li>
+<li>Na linha 146, substitua "123" pelo ID do seu ponto de atendimento cadastrado no GFSIS.</li>
 <li>Na linha 201, em "yourdomain.gfsis.com.br", substitua "yourdomain" pelo seu nome de domínio.</li>
 <li>Nas linhas 202 e 203, insira seu nome de usuário e senha, providos pelo GFSIS.</li>
 <li>Na linha 251, em "yourdomain.gfsis.com.br", substitua "yourdomain" pelo seu nome de domínio.</li>
@@ -67,22 +67,22 @@ define( 'WP_DEBUG_DISPLAY', false );<br>
 <h2>Extra</h2>
 <ul>
 <li>Comunicação com a API do Instituto Brasileiro de Geografia e Estatística - IBGE.</li>
-<li>Quando uma UF é selecionada no campo estado, o campo codigoibge é populado com as opções para a escolha ou pesquisa do cliente.</li>
+<li>Quando uma UF é selecionada no campo estado, o campo codigoibge é populado com as opções para a escolha/pesquisa do cliente.</li>
 </ul>
 <h2>Funcionalidades</h2>
 <ul>
 <li>Mapeia os nomes dos campos do checkout para corresponderem aos nomes dos campos do GFSIS.</li>
 <li>Salva campos personalizados no pedido do WooCommerce.</li>
 <li>Limpa caracteres não numéricos nos campos cpf, cnpj e cep.</li>
-<li>Converte data de d-m-y para Y-m-d.</li>
+<li>Converte data nascimento de d-m-y para Y-m-d.</li>
 <li>Captura valores brutos para depuração e cria logs.</li>
-<li>Cria o token, verifica data e hora de expiração e renova se expirado, armazenando em um transient.</li>
+<li>Cria o token, verifica data e hora de expiração e renova se expirado, armazenando em um transient ou utiliza o token armazenado em cache caso esteja válido.</li>
 <li>Prepara e envia os dados dos objetos como JSON.</li>
 <li>Obtém os detalhes do pedido.</li>
-<li>Cria um código/ID temporario para o GFSIS.</li>
-<li>Captura o código retornado pela GFSIS atualizando o ID do pedido no WooCommerce para refletir o ID correto do pedido do GFSIS.</li>
+<li>Cria um código temporario para o GFSIS.</li>
+<li>Captura o código retornado pela GFSIS atualizando o ID do pedido no WooCommerce para refletir o ID correto do pedido no GFSIS.</li>
 <li>Obtém o SKU do produto principal do pedido passando como ID do produto no objeto certificado para o GFSIS.</li>
-<li>Personaliza o número do pedido exibido na página de Pedido Recebido para o ID do pedido do GFSIS.</li>
+<li>Personaliza o número do pedido exibido na página de Pedido Recebido para o ID do pedido no GFSIS.</li>
 </ul>
 <h2>Requerimentos</h2>
 <ul>
