@@ -3,6 +3,15 @@
 <p>Referência da API: https://gfsis.readme.io/reference/getting-started-with-your-api</p>
 <p>Este plugin pode ser usado com os plugins <a href="https://br.wordpress.org/plugins/woo-checkout-field-editor-pro/">Checkout Field Editor</a> e <a href="https://br.wordpress.org/plugins/woocommerce-extra-checkout-fields-for-brazil/">Brazilian Market on WooCommerce</a>.</p>
 <p>Recentemente desenvolvi um e-commerce utilizando WordPress e WooCommerce para a venda de certificados digitais para uma empresa do ramo, que também emite os certificados. Me deparei com um problema de integração do checkout para um sistema externo, o GFSIS. Este plugin personalizado foi desenvolvido para essa finalidade.</p>
+<h2>No plugin Brazilian Market on WooCommerce</h2>
+<ul>
+<li>Navegue até WooCommerce - Campos do Checkout
+<li>Na opção "Exibir Tipo de Pessoa", selecione Pessoa Física e Pessoa Jurídica.</li>
+<li>Marque a opção "Tipo de Pessoa é obrigatório apenas no Brasil."</li>
+<li>Marque a opção "Exibir Data de Nascimento".</li>
+<li>Em validação, marque as opções "Verificar se o CPF é válido" e "Verificar se o CNPJ é válido".</li>
+<li>Opcional: Marque "Habilitar Sugestões de E-mail" e/ou "Habilitar Máscara de Campos" em Opções de jQuery.</li>
+</ul>
 <h2>No plugin Checkout Field Editor</h2>
 <ul>
 <li>Navegue até WooCommerce - Checkout Form.</li>
@@ -14,15 +23,6 @@
 <li>Crie um campo de nome tipovalidacao do tipo select e adicione a opção 1 para Presencial e 2 para Videoconferência. Se a validação é feita apenas por videconferência, por exemplo, adicione apenas a opção 2. Opcional: você pode ocultar o campo com CSS se não quiser mostra-lo ao cliente.</li>
 <li>Crie um campo de nome formapagamento do tipo select e adicione as opções e labels de acordo com o que foi cadastrado no GFSIS. Por exemplo: 21 - Pix, 22 - Boleto, 23 - Cartão 1x, 24 - Cartão 2x, etc. Neste caso você precisará criar uma função personalizada para mostrar a opção do gateway de pagamento de acordo com a escolha do cliente no select.</li>
 <li>Opcional: Reordene os campos para a ordem que você quer que aparecem no formulário de checkout.</li>
-</ul>
-<h2>No plugin Brazilian Market on WooCommerce</h2>
-<ul>
-<li>Navegue até WooCommerce - Campos do Checkout
-<li>Na opção "Exibir Tipo de Pessoa", selecione Pessoa Física e Pessoa Jurídica.</li>
-<li>Marque a opção "Tipo de Pessoa é obrigatório apenas no Brasil."</li>
-<li>Marque a opção "Exibir Data de Nascimento".</li>
-<li>Em validação, marque as opções "Verificar se o CPF é válido" e "Verificar se o CNPJ é válido".</li>
-<li>Opcional: Marque "Habilitar Sugestões de E-mail" e/ou "Habilitar Máscara de Campos" em Opções de jQuery.</li>
 </ul>
 <h2>No WordPress</h2>
 <ul>
