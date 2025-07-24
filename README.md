@@ -64,11 +64,6 @@ define( 'WP_DEBUG_DISPLAY', false );<br>
 <li>Opcional: Na linha 259, ajuste o tempo limite para a requisição em segundos.</li>
 <li>Salve suas alterações.</li>
 </ul>
-<h2>Extra</h2>
-<ul>
-<li>Comunicação com a API do Instituto Brasileiro de Geografia e Estatística - IBGE.</li>
-<li>Quando uma UF é selecionada no campo estado, o campo codigoibge é populado com as opções para a escolha/pesquisa do cliente.</li>
-</ul>
 <h2>Funcionalidades</h2>
 <ul>
 <li>Mapeia os nomes dos campos do checkout para corresponderem aos nomes dos campos do GFSIS.</li>
@@ -83,6 +78,11 @@ define( 'WP_DEBUG_DISPLAY', false );<br>
 <li>Captura o código retornado pela GFSIS atualizando o ID do pedido no WooCommerce para refletir o ID correto do pedido no GFSIS.</li>
 <li>Obtém o SKU do produto principal do pedido passando como ID do produto no objeto certificado para o GFSIS.</li>
 <li>Personaliza o número do pedido exibido na página de Pedido Recebido para o ID do pedido no GFSIS.</li>
+</ul>
+<h2>Extra</h2>
+<ul>
+<li>Comunicação com a API do Instituto Brasileiro de Geografia e Estatística - IBGE.</li>
+<li>Quando uma UF é selecionada no campo estado, o campo codigoibge é populado com as opções para a escolha/pesquisa do cliente.</li>
 </ul>
 <h2>Requerimentos</h2>
 <ul>
