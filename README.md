@@ -89,7 +89,7 @@ define( 'WP_DEBUG_DISPLAY', false );<br>
 <li>Validação condicional para os campos CPF e CNPJ.</li>
 <li>Sincroniza a escolha do select forma de pagamento com os radios dos métodos de pagamento Safe2Pay.</li>
 <li>Injeção do JS do popup no rodapé (informativo - página carrinho).</li>
-<li>Autocompletamento de Empresa quando CNPJ é preenchido.</li>
+<li>Autocomplete de Empresa quando CNPJ é preenchido.</li>
 <li>Agendamento e limpeza de arquivo debug.log.</li>
 <li>Adiciona GTAG na página do carrinho e onclick no botão Finalizar compra para trackear conversão.</li>
 </ul>
