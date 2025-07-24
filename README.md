@@ -83,21 +83,19 @@ define( 'WP_DEBUG_DISPLAY', false );<br>
 <ul>
 <li>Comunicação com a API do Instituto Brasileiro de Geografia e Estatística - IBGE.</li>
 <li>Quando uma UF é selecionada no campo estado, o campo codigoibge é populado com as opções para a escolha/pesquisa do cliente.</li>
-<li>Na pasta extra, há um aruivo functions.php com todas as funções personalizadas que precisaram ser criadas para o projeto:</li>
+<li>Na pasta extra, há um arquivo functions.php com todas as funções personalizadas que foram criadas para o projeto:</li>
 <li>Validar se produto escolhido corresponde com CPF ou CNPJ.</li>
 <li>Alteração do texto "add to cart" na página do produto e nas páginas de arquivo.</li>
 <li>Validação condicional para os campos CPF e CNPJ.</li>
 <li>Sincroniza a escolha do select forma de pagamento com os radios dos métodos de pagamento Safe2Pay.</li>
 <li>Injeção do JS do popup no rodapé (informativo - página carrinho).</li>
 <li>Autocompletamento de Empresa quando CNPJ é preenchido.</li>
-<li>Agendamento e limpeza de arquivo debug.log</li>
-<li>Adiciona GTAG na página do carrinho e onclick no botão Finalizar compra para trackear conversão</li>
-<li>
-<li></li>
+<li>Agendamento e limpeza de arquivo debug.log.</li>
+<li>Adiciona GTAG na página do carrinho e onclick no botão Finalizar compra para trackear conversão.</li>
 </ul>
 <h2>Requerimentos</h2>
 <ul>
-<li>Versão mínima do PHP: 7.4. Utilize a partir de 8.0 se nenhum dos seus plugins for deprecated. (obsoleto)</li>
+<li>Versão mínima do PHP: 7.4. Utilize a partir de 8.0 se nenhum dos seus plugins for obsoleto.</li>
 <li>WordPress: 6.2 ou superior.</li>
 <li>WooCommerce: 9.0 ou superior.</li>
 </ul>
