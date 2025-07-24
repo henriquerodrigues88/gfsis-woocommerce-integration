@@ -260,7 +260,7 @@ function gtag_checkout_click_event() {
             }
 
             // Envia o evento com callback
-            gtag('event', 'ads_conversion_Fale_conosco_1', {
+            gtag('event', 'ads_conversion_contato_1', {
               'event_callback': function () {
                 console.log("✅ Evento enviado, redirecionando para: " + url);
                 window.location = url;
